@@ -15,6 +15,8 @@
   font-size: 1.10rem;
   margin-bottom: 13px;
   margin-left: 10px; }
+  .advantages__item a {
+    color: #FF8E3C; }
 
 .advantages__item::before {
   font-family: "Font Awesome 5 Free";
