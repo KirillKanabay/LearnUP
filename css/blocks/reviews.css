@@ -1,0 +1,10 @@
+.reviews {
+  background-color: #fff;
+  position: relative;
+  padding: 25px 120px 50px 120px; }
+  .reviews__main-title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=reviews.css.map */

@@ -1,0 +1,37 @@
+.slick-track {
+  display: flex !important; }
+
+.slick-slide {
+  margin: 0px 20px;
+  text-align: center;
+  background-color: #EFF0F3;
+  padding: 20px;
+  height: inherit !important;
+  border-radius: 5px; }
+  .slick-slide img {
+    margin: 0 auto; }
+
+.slider__button {
+  position: absolute;
+  background: url(../../image/reviews/271228.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70px;
+  height: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer; }
+
+.slider__button:hover {
+  background-color: #f7f7f7; }
+
+.slider__button--back {
+  top: 0;
+  left: 0; }
+
+.slider__button--next {
+  top: 0;
+  right: 0;
+  transform: rotate(180deg); }
+
+/*# sourceMappingURL=slider.css.map */

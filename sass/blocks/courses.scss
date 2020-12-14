@@ -1,0 +1,51 @@
+.courses{
+    padding: 25px 8%;
+    &__main-title{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;  
+    }
+    &__item{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 10px;
+        height: auto;
+        background-color: #fff;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+    &__title{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    &__author::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-size: 1rem;
+        font-weight: 900; 
+        content: "\f007";
+        color: #FF8E3C; 
+    }
+    &__author{
+        margin-right: 10px;
+    }
+    &__image{
+        height: 115px;
+        width: 196px;
+        align-self: center;
+        margin-right: 20px;
+    }
+    &__like-count::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-size: 1rem;
+        font-weight: 900; 
+        content: "\f004";
+        color: #FF8E3C; 
+    }
+}
+
+@media (max-width: 1024px){
+    .courses{
+        padding: 25px 30px 50px 30px;
+    }
+}

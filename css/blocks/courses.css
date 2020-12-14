@@ -1,0 +1,43 @@
+.courses {
+  padding: 25px 8%; }
+  .courses__main-title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px; }
+  .courses__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px; }
+  .courses__title {
+    margin-top: 0px;
+    margin-bottom: 10px; }
+  .courses__author::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 1rem;
+    font-weight: 900;
+    content: "\f007";
+    color: #FF8E3C; }
+  .courses__author {
+    margin-right: 10px; }
+  .courses__image {
+    height: 115px;
+    width: 196px;
+    align-self: center;
+    margin-right: 20px; }
+  .courses__like-count::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 1rem;
+    font-weight: 900;
+    content: "\f004";
+    color: #FF8E3C; }
+
+@media (max-width: 1024px) {
+  .courses {
+    padding: 25px 30px 50px 30px; } }
+
+/*# sourceMappingURL=courses.css.map */

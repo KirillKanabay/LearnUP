@@ -1,0 +1,72 @@
+$font : 'SF Pro Display', Arial, sans-serif;
+
+@import 'blocks/header';
+@import 'blocks/social';
+@import 'blocks/advantages.scss';
+@import 'normilize.scss';
+@import 'blocks/service-advantages.scss';
+@import 'blocks/stats.scss';
+@import 'blocks/courses.scss';
+@import 'blocks/reviews';
+@import 'blocks/slider.scss';
+@import 'blocks/footer.scss';
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    background-color: #EFF0F3;
+    color: #2A2A2A;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF8E3C;
+    width: 250px;
+    height: 35px;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    padding: 0;
+    text-decoration: none;
+    
+    &__wrap{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+
+.button:hover{
+    background-color: #f87d25;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:active{
+    background-color: #c05e18;
+    outline: none;
+}
+
+.buttons-container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.buttons-wrap{
+    display: flex;
+}
+
+a{
+    color: #FF8E3C;
+}

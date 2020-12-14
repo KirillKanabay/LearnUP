@@ -1,0 +1,31 @@
+footer {
+  padding: 25px 8%; }
+  footer h2 {
+    font-size: 1rem;
+    text-transform: uppercase; }
+  footer .footer__container {
+    display: flex;
+    justify-content: space-between; }
+  footer .link {
+    color: black;
+    text-decoration: none; }
+
+.footer__column {
+  margin-right: 10px; }
+
+.footer__copyright {
+  width: 125px; }
+  .footer__copyright--text {
+    display: none; }
+
+.links__list {
+  list-style-type: none;
+  padding: 0; }
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 25px 30px; }
+  .footer__container {
+    flex-wrap: wrap; } }
+
+/*# sourceMappingURL=footer.css.map */

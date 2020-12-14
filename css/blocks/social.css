@@ -1,0 +1,11 @@
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  width: 240px; }
+
+.social__image {
+  width: 40px; }
+
+/*# sourceMappingURL=social.css.map */

@@ -1,0 +1,93 @@
+.advantages{
+    &__container{
+        background-color: white;
+        padding: 25px 8% 50px 8%;
+    }
+    &__title{
+        margin-top: 0;
+        text-align: center;
+    }
+    &__list{
+        list-style-type: none;
+        padding: 0;
+        font-size: 1rem;
+    }
+    &__item{
+        font-size: 1.10rem;
+        margin-bottom: 13px;
+        margin-left: 10px;
+    }
+    &__item::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-size: 1.25rem;
+        font-weight: 900; 
+        content: "\f00c";
+        margin-right: 10px;
+    }
+}
+
+.users-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user{
+    &__item{
+        display: flex;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+    }
+    &__container{
+        background-color: #EFF0F3;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    &__name-container{
+        display: flex;
+        align-items: center;
+    }
+    &__title{
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+    &__image{
+        width: 100px;
+    }
+    &__sign-up-btn{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .advantages{
+        &__container{
+            background-color: white;
+            padding: 25px 30px 50px 30px;
+        }
+    }
+}
+
+@media (max-width: 890px){
+    .user__container{
+        width: 300px;
+        height: 250px;
+    }
+    .user{
+        &__title{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        &__image{
+            width: 75px;
+        }
+    }
+    .advantages{
+        &__list{
+            font-size: 14px;
+        }
+    }
+
+}
