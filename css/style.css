@@ -693,7 +693,7 @@ template {
 
 .slider__button {
   position: absolute;
-  background: url(../../image/reviews/271228.svg);
+  background: url("../image/reviews/271228.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 70px;
