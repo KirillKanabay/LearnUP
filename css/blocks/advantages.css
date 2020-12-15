@@ -27,7 +27,8 @@
 
 .users-container {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .user__item {
   display: flex;
@@ -72,5 +73,14 @@
     width: 75px; }
   .advantages__list {
     font-size: 14px; } }
+
+@media (max-width: 756px) {
+  .user__item {
+    width: 100%; }
+    .user__item--student {
+      margin-bottom: 30px; }
+  .user__container {
+    box-sizing: border-box;
+    width: 100%; } }
 
 /*# sourceMappingURL=advantages.css.map */

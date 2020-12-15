@@ -45,4 +45,11 @@
   .service-advantages__image {
     width: 75px; } }
 
+@media (max-width: 710px) {
+  .service-advantages__list {
+    flex-direction: column; }
+  .service-advantages__item {
+    box-sizing: border-box;
+    width: 100%; } }
+
 /*# sourceMappingURL=service-advantages.css.map */

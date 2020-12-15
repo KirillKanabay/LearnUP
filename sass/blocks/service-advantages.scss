@@ -22,6 +22,7 @@
     &__wrap{
         display: flex;
         align-items: center;
+
     }
     &__image{
         width: 100px;
@@ -56,6 +57,18 @@
         }
         &__image{
             width: 75px;
+        }
+    }
+}
+
+@media (max-width: 710px){
+    .service-advantages{
+        &__list{
+            flex-direction: column;
+        }
+        &__item{
+            box-sizing: border-box;
+            width: 100%;
         }
     }
 }

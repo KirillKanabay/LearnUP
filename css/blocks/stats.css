@@ -58,4 +58,26 @@
     .stats__item {
       padding: 15px 38px; } }
 
+@media (max-width: 840px) {
+  .stats__item {
+    width: 250px; }
+  .stats__image {
+    width: 75px; }
+  .stats__title {
+    margin-left: 10px;
+    font-size: 20px; }
+  .stats__count {
+    font-size: 1.5rem; }
+  .stats__count--people::before {
+    font-size: 1.25rem; }
+  .stats__count--courses::before {
+    font-size: 1.25rem; }
+  .stats__count--reviews::before {
+    font-size: 1.25rem; } }
+
+@media (max-width: 760px) {
+  .stats__item {
+    box-sizing: border-box;
+    width: 100%; } }
+
 /*# sourceMappingURL=stats.css.map */

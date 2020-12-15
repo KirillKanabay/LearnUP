@@ -32,6 +32,7 @@
 .users-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .user{
@@ -92,5 +93,17 @@
             font-size: 14px;
         }
     }
+}
 
+@media (max-width: 756px){
+    .user__item{
+        width: 100%;
+        &--student{
+            margin-bottom: 30px;
+        }
+    }
+    .user__container{
+        box-sizing: border-box;
+        width: 100%;
+    }
 }

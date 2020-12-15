@@ -163,7 +163,8 @@ header {
 
 .users-container {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .user__item {
   display: flex;
@@ -208,6 +209,15 @@ header {
     width: 75px; }
   .advantages__list {
     font-size: 14px; } }
+
+@media (max-width: 756px) {
+  .user__item {
+    width: 100%; }
+    .user__item--student {
+      margin-bottom: 30px; }
+  .user__container {
+    box-sizing: border-box;
+    width: 100%; } }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -561,6 +571,13 @@ template {
   .service-advantages__image {
     width: 75px; } }
 
+@media (max-width: 710px) {
+  .service-advantages__list {
+    flex-direction: column; }
+  .service-advantages__item {
+    box-sizing: border-box;
+    width: 100%; } }
+
 .stats {
   background-color: #fff;
   padding: 25px 8% 50px 8%; }
@@ -620,6 +637,28 @@ template {
     padding: 25px 30px 50px 30px; }
     .stats__item {
       padding: 15px 38px; } }
+
+@media (max-width: 840px) {
+  .stats__item {
+    width: 250px; }
+  .stats__image {
+    width: 75px; }
+  .stats__title {
+    margin-left: 10px;
+    font-size: 20px; }
+  .stats__count {
+    font-size: 1.5rem; }
+  .stats__count--people::before {
+    font-size: 1.25rem; }
+  .stats__count--courses::before {
+    font-size: 1.25rem; }
+  .stats__count--reviews::before {
+    font-size: 1.25rem; } }
+
+@media (max-width: 760px) {
+  .stats__item {
+    box-sizing: border-box;
+    width: 100%; } }
 
 .courses {
   padding: 25px 8%; }
@@ -693,7 +732,7 @@ template {
 
 .slider__button {
   position: absolute;
-  background: url("../image/reviews/271228.svg");
+  background: url(../../image/reviews/271228.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 70px;
