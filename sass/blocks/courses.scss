@@ -42,6 +42,7 @@
         width: 196px;
         align-self: center;
         margin-right: 20px;
+        border-radius:5px;
     }
     &__like-count::before{
         font-family: "Font Awesome 5 Free"; 
@@ -55,5 +56,23 @@
 @media (max-width: 1024px){
     .courses{
         padding: 25px 30px 50px 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .courses{
+        &__item{
+            flex-direction: column;
+            text-align: center;
+        }
+        &__image{
+            margin-right: 0;
+        }
+    }
+}
+
+@media (max-width: 550px){
+    .courses{
+        padding: 25px 10px 50px 10px;    
     }
 }

@@ -34,7 +34,8 @@
     height: 115px;
     width: 196px;
     align-self: center;
-    margin-right: 20px; }
+    margin-right: 20px;
+    border-radius: 5px; }
   .courses__like-count::before {
     font-family: "Font Awesome 5 Free";
     font-size: 1rem;
@@ -45,5 +46,16 @@
 @media (max-width: 1024px) {
   .courses {
     padding: 25px 30px 50px 30px; } }
+
+@media (max-width: 600px) {
+  .courses__item {
+    flex-direction: column;
+    text-align: center; }
+  .courses__image {
+    margin-right: 0; } }
+
+@media (max-width: 550px) {
+  .courses {
+    padding: 25px 10px 50px 10px; } }
 
 /*# sourceMappingURL=courses.css.map */

@@ -1,24 +1,22 @@
 .reviews{
     background-color: #fff;
     position: relative;
-    padding: 25px 120px 50px 120px;
+    padding: 25px 8% 50px 8%;
     &__main-title{
         text-align: center;
         margin: 0;
         margin-bottom: 20px; 
     }
-    // &__list{
-    //     display: flex;
-    //     justify-content: space-between;
-    //     list-style-type: none;
-    //     padding: 0px;
-    // }
-    // &__item{
-    //     text-align: center;
-    //     box-sizing: border-box;
-    //     background-color: #EFF0F3;
-    //     width: 400px;
-    //     padding: 20px;
-    //     border-radius: 5px;
-    // }
+}
+
+@media(max-width: 1024px){
+    .reviews{
+        padding: 25px 30px 50px 30px;
+    }
+}
+
+@media(max-width: 550px){
+    .reviews{
+        padding: 25px 10px 50px 10px;
+    }
 }

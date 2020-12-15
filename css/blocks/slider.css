@@ -34,4 +34,8 @@
   right: 0;
   transform: rotate(180deg); }
 
+@media (max-width: 550px) {
+  .slider__button {
+    display: none; } }
+
 /*# sourceMappingURL=slider.css.map */

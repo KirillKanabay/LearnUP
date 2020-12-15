@@ -3,6 +3,7 @@
   padding: 25px 8% 50px 8%; }
   .stats__main-title {
     margin-top: 0;
+    margin-bottom: 0;
     text-align: center; }
   .stats__list {
     display: flex;
@@ -78,6 +79,12 @@
 @media (max-width: 760px) {
   .stats__item {
     box-sizing: border-box;
-    width: 100%; } }
+    width: 100%; }
+  .stats__description {
+    text-align: center; } }
+
+@media (max-width: 550px) {
+  .stats {
+    padding: 25px 10px 50px 10px; } }
 
 /*# sourceMappingURL=stats.css.map */

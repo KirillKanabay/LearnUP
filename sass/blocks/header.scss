@@ -169,3 +169,28 @@ header {
         margin-right: 20px;
     }
 }
+
+@media(max-width: 550px){
+    .header{
+        &__wrap {
+            padding: 10px;
+        }
+        &__image{
+            width: 200px;
+        }
+    }
+    .button{
+        font-size: 14px;
+        margin-right: 10px;
+        &--sign-in {
+            width: 50px !important;
+        }
+        &--sign-up{
+            margin-right: 0;
+            width: 90px !important;
+        }
+    }
+    .buttons-wrap{
+        margin-right: 10px;
+    }
+}

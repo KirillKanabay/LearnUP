@@ -3,6 +3,7 @@
     padding: 25px 8% 50px 8%;
     &__main-title{
         margin-top: 0;
+        margin-bottom: 0;
         text-align: center;
     }
     &__list{
@@ -107,5 +108,14 @@
             box-sizing: border-box;
             width: 100%;
         }
+        &__description{
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 550px){
+    .stats{
+        padding: 25px 10px 50px 10px;
     }
 }

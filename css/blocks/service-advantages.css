@@ -50,6 +50,13 @@
     flex-direction: column; }
   .service-advantages__item {
     box-sizing: border-box;
-    width: 100%; } }
+    width: 100%;
+    text-align: center; }
+  .service-advantages__wrap {
+    justify-content: center; } }
+
+@media (max-width: 550px) {
+  .service-advantages__container {
+    padding: 25px 10px 50px 10px; } }
 
 /*# sourceMappingURL=service-advantages.css.map */

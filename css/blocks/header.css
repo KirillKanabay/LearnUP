@@ -124,4 +124,20 @@ header {
     align-self: flex-end;
     margin-right: 20px; } }
 
+@media (max-width: 550px) {
+  .header__wrap {
+    padding: 10px; }
+  .header__image {
+    width: 200px; }
+  .button {
+    font-size: 14px;
+    margin-right: 10px; }
+    .button--sign-in {
+      width: 50px !important; }
+    .button--sign-up {
+      margin-right: 0;
+      width: 90px !important; }
+  .buttons-wrap {
+    margin-right: 10px; } }
+
 /*# sourceMappingURL=header.css.map */

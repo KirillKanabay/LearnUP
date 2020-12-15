@@ -1,10 +1,18 @@
 .reviews {
   background-color: #fff;
   position: relative;
-  padding: 25px 120px 50px 120px; }
+  padding: 25px 8% 50px 8%; }
   .reviews__main-title {
     text-align: center;
     margin: 0;
     margin-bottom: 20px; }
+
+@media (max-width: 1024px) {
+  .reviews {
+    padding: 25px 30px 50px 30px; } }
+
+@media (max-width: 550px) {
+  .reviews {
+    padding: 25px 10px 50px 10px; } }
 
 /*# sourceMappingURL=reviews.css.map */
