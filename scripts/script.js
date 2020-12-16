@@ -3,6 +3,7 @@ $('.slides__list').slick({
     dots: true,
     slidesToShow: 3,
     slidesToScroll: 1,
+    arrows: false,
     responsive: [
         {
             breakpoint: 1200,
@@ -26,4 +27,3 @@ $('.slider__button--back').on('click', function(){
 $('.slider__button--next').on('click', function(){
     $('.slides__list').slick('slickNext');
 });
-

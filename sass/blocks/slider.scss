@@ -15,6 +15,10 @@
       }
 }
 
+.slick-dots{
+  bottom: -45px !important;
+}
+
 .slider__button{
       position: absolute;
       background: url(../../image/reviews/271228.svg);
@@ -43,6 +47,12 @@
     right: 0;
     transform: rotate(180deg);
   }
+
+@media(max-width:1024px){
+  .slick-slide{
+    margin: 0 50px;
+  }
+}
 
 @media(max-width: 550px){
   .slider__button{

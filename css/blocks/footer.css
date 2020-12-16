@@ -9,6 +9,8 @@ footer {
   footer .link {
     color: black;
     text-decoration: none; }
+  footer .link:hover {
+    color: #FF8E3C; }
 
 .footer__column {
   margin-right: 10px; }
@@ -27,5 +29,15 @@ footer {
     padding: 25px 30px; }
   .footer__container {
     flex-wrap: wrap; } }
+
+@media (max-width: 525px) {
+  footer {
+    padding: 25px 10px; }
+  .footer__copyright {
+    display: none; }
+  .footer__copyright--text {
+    display: block;
+    text-align: center;
+    color: #FF8E3C; } }
 
 /*# sourceMappingURL=footer.css.map */
