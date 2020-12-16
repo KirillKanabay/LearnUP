@@ -8,4 +8,8 @@
 .social__image {
   width: 40px; }
 
+.social__image:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s; }
+
 /*# sourceMappingURL=social.css.map */

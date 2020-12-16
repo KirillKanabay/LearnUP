@@ -1,6 +1,6 @@
 .advantages__container {
   background-color: white;
-  padding: 25px 8% 50px 8%; }
+  padding: 25px 8% 30px 8%; }
 
 .advantages__title {
   margin-top: 0;
@@ -59,7 +59,7 @@
 
 @media (max-width: 1024px) {
   .advantages__container {
-    padding: 25px 30px 50px 30px; } }
+    padding: 25px 30px 30px 30px; } }
 
 @media (max-width: 890px) {
   .user__container {

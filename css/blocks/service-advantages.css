@@ -1,5 +1,5 @@
 .service-advantages__container {
-  padding: 25px 8%  50px 8%; }
+  padding: 25px 8%  30px 8%; }
 
 .service-advantages__main-title {
   margin: 0;
@@ -32,7 +32,7 @@
 
 @media (max-width: 1024px) {
   .service-advantages__container {
-    padding: 25px 30px 50px 30px; }
+    padding: 25px 30px 30px 30px; }
   .service-advantages__item {
     padding: 15px 38px; } }
 
@@ -57,6 +57,6 @@
 
 @media (max-width: 550px) {
   .service-advantages__container {
-    padding: 25px 10px 50px 10px; } }
+    padding: 25px 10px 30px 10px; } }
 
 /*# sourceMappingURL=service-advantages.css.map */

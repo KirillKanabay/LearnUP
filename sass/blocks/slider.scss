@@ -1,3 +1,8 @@
+.slides{
+  &__about-author{
+    font-style: italic;
+  }
+}
 .slick-track {
   display: flex !important;
 }
@@ -17,6 +22,21 @@
 
 .slick-dots{
   bottom: -45px !important;
+}
+.slick-dots li button:before{
+  display: block;
+  background: #b3b3b3;
+  opacity: 1;
+  font-size: 0;
+  border-radius: 3px;
+  font-size: 0 !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.slick-dots li.slick-active button:before{
+  display: block;
+  background: #FF8E3C;
 }
 
 .slider__button{

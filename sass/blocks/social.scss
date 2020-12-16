@@ -1,5 +1,6 @@
 .social{
     &__list{
+       // position: absolute;
         display: flex;
         justify-content: space-between;
         list-style-type: none;
@@ -8,5 +9,9 @@
     }
     &__image{
         width: 40px;
+    }
+    &__image:hover{
+        box-shadow:  0 0 10px rgba(0,0,0,0.5);
+        transition: box-shadow 0.3s;
     }
 }

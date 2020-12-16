@@ -1,6 +1,6 @@
 .stats {
   background-color: #fff;
-  padding: 25px 8% 50px 8%; }
+  padding: 25px 8% 30px 8%; }
   .stats__main-title {
     margin-top: 0;
     margin-bottom: 0;
@@ -55,7 +55,7 @@
 
 @media (max-width: 1024px) {
   .stats {
-    padding: 25px 30px 50px 30px; }
+    padding: 25px 30px 30px 30px; }
     .stats__item {
       padding: 15px 38px; } }
 
@@ -85,6 +85,6 @@
 
 @media (max-width: 550px) {
   .stats {
-    padding: 25px 10px 50px 10px; } }
+    padding: 25px 10px 30px 10px; } }
 
 /*# sourceMappingURL=stats.css.map */

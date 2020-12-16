@@ -162,9 +162,13 @@ header {
 .social__image {
   width: 40px; }
 
+.social__image:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s; }
+
 .advantages__container {
   background-color: white;
-  padding: 25px 8% 50px 8%; }
+  padding: 25px 8% 30px 8%; }
 
 .advantages__title {
   margin-top: 0;
@@ -223,7 +227,7 @@ header {
 
 @media (max-width: 1024px) {
   .advantages__container {
-    padding: 25px 30px 50px 30px; } }
+    padding: 25px 30px 30px 30px; } }
 
 @media (max-width: 890px) {
   .user__container {
@@ -558,7 +562,7 @@ template {
   display: none; }
 
 .service-advantages__container {
-  padding: 25px 8%  50px 8%; }
+  padding: 25px 8%  30px 8%; }
 
 .service-advantages__main-title {
   margin: 0;
@@ -591,7 +595,7 @@ template {
 
 @media (max-width: 1024px) {
   .service-advantages__container {
-    padding: 25px 30px 50px 30px; }
+    padding: 25px 30px 30px 30px; }
   .service-advantages__item {
     padding: 15px 38px; } }
 
@@ -616,11 +620,11 @@ template {
 
 @media (max-width: 550px) {
   .service-advantages__container {
-    padding: 25px 10px 50px 10px; } }
+    padding: 25px 10px 30px 10px; } }
 
 .stats {
   background-color: #fff;
-  padding: 25px 8% 50px 8%; }
+  padding: 25px 8% 30px 8%; }
   .stats__main-title {
     margin-top: 0;
     margin-bottom: 0;
@@ -675,7 +679,7 @@ template {
 
 @media (max-width: 1024px) {
   .stats {
-    padding: 25px 30px 50px 30px; }
+    padding: 25px 30px 30px 30px; }
     .stats__item {
       padding: 15px 38px; } }
 
@@ -705,7 +709,7 @@ template {
 
 @media (max-width: 550px) {
   .stats {
-    padding: 25px 10px 50px 10px; } }
+    padding: 25px 10px 30px 10px; } }
 
 .courses {
   padding: 25px 8%; }
@@ -754,7 +758,7 @@ template {
 
 @media (max-width: 1024px) {
   .courses {
-    padding: 25px 30px 50px 30px; } }
+    padding: 25px 30px 30px 30px; } }
 
 @media (max-width: 600px) {
   .courses__item {
@@ -765,7 +769,7 @@ template {
 
 @media (max-width: 550px) {
   .courses {
-    padding: 25px 10px 50px 10px; } }
+    padding: 25px 10px 30px 10px; } }
 
 .reviews {
   background-color: #fff;
@@ -784,6 +788,9 @@ template {
   .reviews {
     padding: 25px 10px 50px 10px; } }
 
+.slides__about-author {
+  font-style: italic; }
+
 .slick-track {
   display: flex !important; }
 
@@ -799,6 +806,20 @@ template {
 
 .slick-dots {
   bottom: -45px !important; }
+
+.slick-dots li button:before {
+  display: block;
+  background: #b3b3b3;
+  opacity: 1;
+  font-size: 0;
+  border-radius: 3px;
+  font-size: 0 !important;
+  width: 16px !important;
+  height: 16px !important; }
+
+.slick-dots li.slick-active button:before {
+  display: block;
+  background: #FF8E3C; }
 
 .slider__button {
   position: absolute;
@@ -904,9 +925,12 @@ h2 {
     margin-top: 30px; }
 
 .button:hover {
-  background-color: #f87d25;
+  background-color: #ff8935;
   cursor: pointer;
-  outline: none; }
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s;
+  transition: background-color 0.3s; }
 
 .button:active {
   background-color: #c05e18;
