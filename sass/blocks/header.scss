@@ -60,6 +60,15 @@ header {
             font-size: 14px;
             color: #2A2A2A;
         }
+        &--mobile{
+            display: none;
+            position: absolute;
+            top:50px;
+            left: 0;
+            background-color: #fff !important;
+            width: 100% !important;
+            box-shadow:  0 0 2px rgba(0,0,0,0.3);
+        }
     }
 
     &__section-container {
@@ -139,7 +148,7 @@ header {
             order: 2;
             width: 32px;
             margin-right: 0;
-            input{
+            &-input{
                 visibility: hidden;
                 width: 32px;
             }

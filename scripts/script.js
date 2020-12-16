@@ -27,3 +27,15 @@ $('.slider__button--back').on('click', function(){
 $('.slider__button--next').on('click', function(){
     $('.slides__list').slick('slickNext');
 });
+
+$('.header__search-button').on('click', function(){
+    if($(window).width() <= 1024){
+        $('.header__search--mobile').toggle();
+    }
+});
+
+$(window).resize(function() {
+    if($(window).width() > 1024){
+        $('.header__search--mobile').hide();
+    }   
+});
